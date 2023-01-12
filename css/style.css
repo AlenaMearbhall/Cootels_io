@@ -139,6 +139,13 @@ h6 {
      object-fit: contain;
 }
 
+.logo {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1, 2;
+}
+
 .button {
   color: #FFFFFF;
   font-weight: 500;
@@ -198,10 +205,6 @@ h6 {
 
 .header__logo {
   color: #192252;
-  font-family: "Montserrat";
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1, 2;
 }
 
 .menu__list {
@@ -275,6 +278,75 @@ h6 {
 	}
 }
 */
+
+.footer {
+  background-color: #0B265A;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #D9DBDE;
+}
+
+.footer__logo {
+  color: #ffffff;
+  margin-bottom: 0.8125rem;
+}
+
+.footer-main-block__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  width: 11.625rem;
+  margin-bottom: 2.25rem;
+}
+
+.social-footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-footer__item:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.content-footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 6.5625rem;
+}
+
+.content-footer__item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.item-content__item:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.item-content__item-title {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
 
 .hero__container {
   display: -webkit-box;
@@ -413,6 +485,152 @@ h6 {
   color: #000000;
 }
 
+.how-get__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.how-get__discraption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #424F7B;
+}
+
+.how-get__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.how-get__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0E1734;
+}
+
+.how-get__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+}
+
+.how-get__item {
+  background: #FFFFFF;
+  border-radius: 4px;
+  -webkit-box-shadow: -0.1em 0 1.4em rgba(0, 0, 0, 0.2);
+          box-shadow: -0.1em 0 1.4em rgba(0, 0, 0, 0.2);
+  padding: 2rem 2.25rem;
+}
+
+.item-how-get__main-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item-how-get__title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #424F7B;
+}
+
+.item-how-get__arrow {
+  padding: 0.5625rem;
+  background-color: #FF620A;
+  border-radius: 50%;
+}
+
+.item-how-get__img {
+  margin: 0 auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item-how-get__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+}
+
+.customers__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.customers__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item-customers__text {
+  text-align: center;
+}
+
+.item-customers__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #192252;
+}
+
+.hidden {
+  display: none;
+}
+
 @media (min-width: 76.875em) {
   .header__container {
     padding-top: 3.5rem;
@@ -422,28 +640,36 @@ h6 {
     padding-bottom: 2.8125rem;
   }
 
-  .hero {
-    margin-top: 5rem;
+  .footer {
+    padding-top: 7.5rem;
+  }
+
+  .footer {
+    padding-bottom: 7.5rem;
   }
 
   .hero {
-    margin-bottom: 6rem;
+    padding-top: 5rem;
+  }
+
+  .hero {
+    padding-bottom: 6rem;
   }
 
   .about {
-    margin-top: 5rem;
+    padding-top: 5rem;
   }
 
   .about {
-    margin-bottom: 3.75rem;
+    padding-bottom: 3.75rem;
   }
 
   .rooms {
-    margin-top: 5rem;
+    padding-top: 5rem;
   }
 
   .rooms {
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
   }
 
   .rooms__title {
@@ -469,6 +695,66 @@ h6 {
   .item-rooms__text {
     margin-bottom: 2rem;
   }
+
+  .how-get {
+    padding-top: 5rem;
+  }
+
+  .how-get {
+    padding-bottom: 5rem;
+  }
+
+  .how-get__container {
+    gap: 12.8125rem;
+  }
+
+  .how-get__discraption {
+    margin-bottom: 0.75rem;
+  }
+
+  .how-get__title {
+    margin-bottom: 1.5rem;
+  }
+
+  .how-get__text {
+    margin-bottom: 2rem;
+  }
+
+  .how-get__button {
+    margin-right: 1.5rem;
+  }
+
+  .how-get__item {
+    min-width: 36.75rem;
+  }
+
+  .item-how-get__title {
+    margin-bottom: 1.5rem;
+  }
+
+  .customers {
+    padding-top: 5rem;
+  }
+
+  .customers {
+    padding-bottom: 5rem;
+  }
+
+  .customers__list {
+    padding-top: 3.875rem;
+  }
+
+  .item-customers__picture {
+    margin-bottom: 2.75rem;
+  }
+
+  .item-customers__text {
+    margin-bottom: 2.5rem;
+  }
+
+  .item-customers__text {
+    max-width: 49.5625rem;
+  }
 }
 
 @media (max-width: 20em) {
@@ -480,28 +766,36 @@ h6 {
     padding-bottom: 1.6875rem;
   }
 
-  .hero {
-    margin-top: 2.5rem;
+  .footer {
+    padding-top: 5rem;
+  }
+
+  .footer {
+    padding-bottom: 5rem;
   }
 
   .hero {
-    margin-bottom: 2.5rem;
+    padding-top: 2.5rem;
+  }
+
+  .hero {
+    padding-bottom: 2.5rem;
   }
 
   .about {
-    margin-top: 3.75rem;
+    padding-top: 3.75rem;
   }
 
   .about {
-    margin-bottom: 3.75rem;
+    padding-bottom: 3.75rem;
   }
 
   .rooms {
-    margin-top: 3.75rem;
+    padding-top: 3.75rem;
   }
 
   .rooms {
-    margin-bottom: 3.75rem;
+    padding-bottom: 3.75rem;
   }
 
   .rooms__title {
@@ -526,6 +820,66 @@ h6 {
 
   .item-rooms__text {
     margin-bottom: 1.5625rem;
+  }
+
+  .how-get {
+    padding-top: 3.75rem;
+  }
+
+  .how-get {
+    padding-bottom: 3.75rem;
+  }
+
+  .how-get__container {
+    gap: 1.25rem;
+  }
+
+  .how-get__discraption {
+    margin-bottom: 0.625rem;
+  }
+
+  .how-get__title {
+    margin-bottom: 1rem;
+  }
+
+  .how-get__text {
+    margin-bottom: 1.5rem;
+  }
+
+  .how-get__button {
+    margin-right: 0.75rem;
+  }
+
+  .how-get__item {
+    min-width: 25rem;
+  }
+
+  .item-how-get__title {
+    margin-bottom: 1.25rem;
+  }
+
+  .customers {
+    padding-top: 3.75rem;
+  }
+
+  .customers {
+    padding-bottom: 3.75rem;
+  }
+
+  .customers__list {
+    padding-top: 2.5rem;
+  }
+
+  .item-customers__picture {
+    margin-bottom: 1.875rem;
+  }
+
+  .item-customers__text {
+    margin-bottom: 1.875rem;
+  }
+
+  .item-customers__text {
+    max-width: 31.25rem;
   }
 }
 
@@ -554,75 +908,99 @@ h6 {
     }
 }
 
-@supports (margin-top: clamp( 2.5rem , 1.6208791209rem  +  4.3956043956vw , 5rem )) {
+@supports (padding-top: clamp( 5rem , 4.1208791209rem  +  4.3956043956vw , 7.5rem )) {
+    .footer {
+      padding-top: clamp( 5rem , 4.1208791209rem  +  4.3956043956vw , 7.5rem );
+    }
+}
+
+@supports not (padding-top: clamp( 5rem , 4.1208791209rem  +  4.3956043956vw , 7.5rem )) {
+    .footer {
+      padding-top: calc(5rem + 2.5 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (padding-bottom: clamp( 5rem , 4.1208791209rem  +  4.3956043956vw , 7.5rem )) {
+    .footer {
+      padding-bottom: clamp( 5rem , 4.1208791209rem  +  4.3956043956vw , 7.5rem );
+    }
+}
+
+@supports not (padding-bottom: clamp( 5rem , 4.1208791209rem  +  4.3956043956vw , 7.5rem )) {
+    .footer {
+      padding-bottom: calc(5rem + 2.5 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (padding-top: clamp( 2.5rem , 1.6208791209rem  +  4.3956043956vw , 5rem )) {
     .hero {
-      margin-top: clamp( 2.5rem , 1.6208791209rem  +  4.3956043956vw , 5rem );
+      padding-top: clamp( 2.5rem , 1.6208791209rem  +  4.3956043956vw , 5rem );
     }
 }
 
-@supports not (margin-top: clamp( 2.5rem , 1.6208791209rem  +  4.3956043956vw , 5rem )) {
+@supports not (padding-top: clamp( 2.5rem , 1.6208791209rem  +  4.3956043956vw , 5rem )) {
     .hero {
-      margin-top: calc(2.5rem + 2.5 * (100vw - 20rem) / 56.875);
+      padding-top: calc(2.5rem + 2.5 * (100vw - 20rem) / 56.875);
     }
 }
 
-@supports (margin-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 6rem )) {
+@supports (padding-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 6rem )) {
     .hero {
-      margin-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 6rem );
+      padding-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 6rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 6rem )) {
+@supports not (padding-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 6rem )) {
     .hero {
-      margin-bottom: calc(2.5rem + 3.5 * (100vw - 20rem) / 56.875);
+      padding-bottom: calc(2.5rem + 3.5 * (100vw - 20rem) / 56.875);
     }
 }
 
-@supports (margin-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+@supports (padding-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
     .about {
-      margin-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem );
+      padding-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem );
     }
 }
 
-@supports not (margin-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+@supports not (padding-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
     .about {
-      margin-top: calc(3.75rem + 1.25 * (100vw - 20rem) / 56.875);
+      padding-top: calc(3.75rem + 1.25 * (100vw - 20rem) / 56.875);
     }
 }
 
-@supports (margin-bottom: clamp( 3.75rem , 3.75rem  +  0vw , 3.75rem )) {
+@supports (padding-bottom: clamp( 3.75rem , 3.75rem  +  0vw , 3.75rem )) {
     .about {
-      margin-bottom: clamp( 3.75rem , 3.75rem  +  0vw , 3.75rem );
+      padding-bottom: clamp( 3.75rem , 3.75rem  +  0vw , 3.75rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 3.75rem , 3.75rem  +  0vw , 3.75rem )) {
+@supports not (padding-bottom: clamp( 3.75rem , 3.75rem  +  0vw , 3.75rem )) {
     .about {
-      margin-bottom: calc(3.75rem + 0 * (100vw - 20rem) / 56.875);
+      padding-bottom: calc(3.75rem + 0 * (100vw - 20rem) / 56.875);
     }
 }
 
-@supports (margin-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+@supports (padding-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
     .rooms {
-      margin-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem );
+      padding-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem );
     }
 }
 
-@supports not (margin-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+@supports not (padding-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
     .rooms {
-      margin-top: calc(3.75rem + 1.25 * (100vw - 20rem) / 56.875);
+      padding-top: calc(3.75rem + 1.25 * (100vw - 20rem) / 56.875);
     }
 }
 
-@supports (margin-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+@supports (padding-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
     .rooms {
-      margin-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem );
+      padding-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+@supports not (padding-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
     .rooms {
-      margin-bottom: calc(3.75rem + 1.25 * (100vw - 20rem) / 56.875);
+      padding-bottom: calc(3.75rem + 1.25 * (100vw - 20rem) / 56.875);
     }
 }
 
@@ -697,6 +1075,186 @@ h6 {
       margin-bottom: calc(1.5625rem + 0.4375 * (100vw - 20rem) / 56.875);
     }
 }
+
+@supports (padding-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+    .how-get {
+      padding-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem );
+    }
+}
+
+@supports not (padding-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+    .how-get {
+      padding-top: calc(3.75rem + 1.25 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (padding-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+    .how-get {
+      padding-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem );
+    }
+}
+
+@supports not (padding-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+    .how-get {
+      padding-bottom: calc(3.75rem + 1.25 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (gap: clamp( 1.25rem , -2.8159340659rem  +  20.3296703297vw , 12.8125rem )) {
+    .how-get__container {
+      gap: clamp( 1.25rem , -2.8159340659rem  +  20.3296703297vw , 12.8125rem );
+    }
+}
+
+@supports not (gap: clamp( 1.25rem , -2.8159340659rem  +  20.3296703297vw , 12.8125rem )) {
+    .how-get__container {
+      gap: calc(1.25rem + 11.5625 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (margin-bottom: clamp( 0.625rem , 0.581043956rem  +  0.2197802198vw , 0.75rem )) {
+    .how-get__discraption {
+      margin-bottom: clamp( 0.625rem , 0.581043956rem  +  0.2197802198vw , 0.75rem );
+    }
+}
+
+@supports not (margin-bottom: clamp( 0.625rem , 0.581043956rem  +  0.2197802198vw , 0.75rem )) {
+    .how-get__discraption {
+      margin-bottom: calc(0.625rem + 0.125 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (margin-bottom: clamp( 1rem , 0.8241758242rem  +  0.8791208791vw , 1.5rem )) {
+    .how-get__title {
+      margin-bottom: clamp( 1rem , 0.8241758242rem  +  0.8791208791vw , 1.5rem );
+    }
+}
+
+@supports not (margin-bottom: clamp( 1rem , 0.8241758242rem  +  0.8791208791vw , 1.5rem )) {
+    .how-get__title {
+      margin-bottom: calc(1rem + 0.5 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (margin-bottom: clamp( 1.5rem , 1.3241758242rem  +  0.8791208791vw , 2rem )) {
+    .how-get__text {
+      margin-bottom: clamp( 1.5rem , 1.3241758242rem  +  0.8791208791vw , 2rem );
+    }
+}
+
+@supports not (margin-bottom: clamp( 1.5rem , 1.3241758242rem  +  0.8791208791vw , 2rem )) {
+    .how-get__text {
+      margin-bottom: calc(1.5rem + 0.5 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (margin-right: clamp( 0.75rem , 0.4862637363rem  +  1.3186813187vw , 1.5rem )) {
+    .how-get__button {
+      margin-right: clamp( 0.75rem , 0.4862637363rem  +  1.3186813187vw , 1.5rem );
+    }
+}
+
+@supports not (margin-right: clamp( 0.75rem , 0.4862637363rem  +  1.3186813187vw , 1.5rem )) {
+    .how-get__button {
+      margin-right: calc(0.75rem + 0.75 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (min-width: clamp( 25rem , 20.8681318681rem  +  20.6593406593vw , 36.75rem )) {
+    .how-get__item {
+      min-width: clamp( 25rem , 20.8681318681rem  +  20.6593406593vw , 36.75rem );
+    }
+}
+
+@supports not (min-width: clamp( 25rem , 20.8681318681rem  +  20.6593406593vw , 36.75rem )) {
+    .how-get__item {
+      min-width: calc(25rem + 11.75 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (margin-bottom: clamp( 1.25rem , 1.1620879121rem  +  0.4395604396vw , 1.5rem )) {
+    .item-how-get__title {
+      margin-bottom: clamp( 1.25rem , 1.1620879121rem  +  0.4395604396vw , 1.5rem );
+    }
+}
+
+@supports not (margin-bottom: clamp( 1.25rem , 1.1620879121rem  +  0.4395604396vw , 1.5rem )) {
+    .item-how-get__title {
+      margin-bottom: calc(1.25rem + 0.25 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (padding-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+    .customers {
+      padding-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem );
+    }
+}
+
+@supports not (padding-top: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+    .customers {
+      padding-top: calc(3.75rem + 1.25 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (padding-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+    .customers {
+      padding-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem );
+    }
+}
+
+@supports not (padding-bottom: clamp( 3.75rem , 3.3104395604rem  +  2.1978021978vw , 5rem )) {
+    .customers {
+      padding-bottom: calc(3.75rem + 1.25 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (padding-top: clamp( 2.5rem , 2.0164835165rem  +  2.4175824176vw , 3.875rem )) {
+    .customers__list {
+      padding-top: clamp( 2.5rem , 2.0164835165rem  +  2.4175824176vw , 3.875rem );
+    }
+}
+
+@supports not (padding-top: clamp( 2.5rem , 2.0164835165rem  +  2.4175824176vw , 3.875rem )) {
+    .customers__list {
+      padding-top: calc(2.5rem + 1.375 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (margin-bottom: clamp( 1.875rem , 1.5673076923rem  +  1.5384615385vw , 2.75rem )) {
+    .item-customers__picture {
+      margin-bottom: clamp( 1.875rem , 1.5673076923rem  +  1.5384615385vw , 2.75rem );
+    }
+}
+
+@supports not (margin-bottom: clamp( 1.875rem , 1.5673076923rem  +  1.5384615385vw , 2.75rem )) {
+    .item-customers__picture {
+      margin-bottom: calc(1.875rem + 0.875 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (margin-bottom: clamp( 1.875rem , 1.6552197802rem  +  1.0989010989vw , 2.5rem )) {
+    .item-customers__text {
+      margin-bottom: clamp( 1.875rem , 1.6552197802rem  +  1.0989010989vw , 2.5rem );
+    }
+}
+
+@supports not (margin-bottom: clamp( 1.875rem , 1.6552197802rem  +  1.0989010989vw , 2.5rem )) {
+    .item-customers__text {
+      margin-bottom: calc(1.875rem + 0.625 * (100vw - 20rem) / 56.875);
+    }
+}
+
+@supports (max-width: clamp( 31.25rem , 24.8104395604rem  +  32.1978021978vw , 49.5625rem )) {
+    .item-customers__text {
+      max-width: clamp( 31.25rem , 24.8104395604rem  +  32.1978021978vw , 49.5625rem );
+    }
+}
+
+@supports not (max-width: clamp( 31.25rem , 24.8104395604rem  +  32.1978021978vw , 49.5625rem )) {
+    .item-customers__text {
+      max-width: calc(31.25rem + 18.3125 * (100vw - 20rem) / 56.875);
+    }
+}
 }
 
 @media (any-hover: hover) {
@@ -707,5 +1265,9 @@ h6 {
 
   .menu__link:hover {
     color: #FF620A;
+  }
+
+  .item-content__link:hover {
+    text-decoration: underline;
   }
 }
